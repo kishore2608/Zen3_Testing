@@ -1,0 +1,55 @@
+@media screen and (max-width:1280px) { 
+
+} 
+
+
+@media (min-width:1024px) and (max-width: 1199px) {
+    .product_list_main .list_div .list_items ul li.list{width:calc(100% / 4 - 20px);}
+    .cart_list .item_desc{width: 200px;}
+    .cart_list .form-group{width: 160px;padding: 0 30px;}
+    .cart_list .remove_btn{width: 84px;}
+}
+
+
+
+@media screen and (max-width:1024px) { 
+   .product_list_main .list_div .list_items ul li.list{width:calc(100% / 3 - 20px);}
+    .cart_list .item_desc{width: 200px;}
+    .cart_list .form-group{width: 160px;padding: 0 30px;}
+    .cart_list .remove_btn{width: 84px;}
+} 
+
+@media screen and (max-width:991px) { 
+    
+} 
+
+@media screen and (max-width:767px) { 
+    .product_list_main .filter,
+    .product_list_main .list_div .sorting{display: none;}
+    .product_list_main .list_div{width:100%;}
+     .product_list_main .list_div .list_items ul li.list{width:calc(100% / 2 - 20px);}
+    .Exp-serach.Exp-serach-open, .no-js .Exp-serach{width: 300px;}
+    .ExpInput{width: 100%;}
+    
+    .cart_list .cart_img{width: 120px;height: 150px;}
+    .cart_list .cart_img img{width: 120px;height: 150px;}
+    .cart_list .item_desc{width: calc(100% - 135px);float: left;padding: 0;margin-left: 15px;}
+    .cart_list .form-group{width: calc(100% - 135px);float: left;padding: 0;margin: 15px 0 0 15px;max-width: 110px;}
+    .cart_list .remove_btn{width: calc(100% - 135px);float: left;padding: 0;margin-left: 15px;margin-top: 15px;text-align: left;}
+    
+    .mobile_actions{display: block;}
+    .mobile_actions ul{margin: -10px 10px 4px;padding: 0;width: calc(100% - 20px);float: left;border-bottom: 1px solid #ccc;}
+    .mobile_actions ul li{list-style: none;display: inline-block;width: 50%;float: left;text-align: center;}
+    .mobile_actions ul li a{color: #565656;font-size: 20px;display: inline-block;font-weight: 700;width: 100%;position: relative;padding: 10px 0;}
+
+
+
+@media screen and (max-width:480px) {
+    .header {width: calc(100% - 30px);margin: 0 auto;}
+    .Exp-serach.Exp-serach-open, .no-js .Exp-serach{width: 200px;}
+    .product_list_main .list_div .list_items ul li.list .item_desc .p_price p.price,
+    .product_list_main .list_div .list_items ul li.list .item_desc .p_price p.offer{font-size: 14px;}
+    .product_list_main{padding: 10px;}
+    .menu-actions ul li{margin: 0;}
+} 
+

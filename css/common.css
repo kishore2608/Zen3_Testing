@@ -1,0 +1,56 @@
+body{font-family: 'Lato', sans-serif;font-weight: 400;background: #f1f3f6;}
+*{outline: 0;box-sizing: border-box;margin: 0;padding: 0;box-sizing: border-box;}
+
+.footer{width: 100%;background: #4269ea;float: left;}
+.footer .copyright{width: 100%;float: left;text-align: center;padding: 15px 0;}
+.footer .copyright p{font-size: 18px; color: #fff;margin: 0;font-weight: 500;}
+
+
+#header{width: 100%;background: #4269ea;float: left;padding: 10px 0;}
+.header{width: calc(100% - 60px);margin: 0 auto;}
+.header .logo{width: auto;float: left;}
+.header .logo a{display: inline-block;font-size: 50px;line-height: 1;color: #f7cd22;}
+
+.menu-actions{float: right;}
+.menu-actions ul{margin: 0;padding: 0;}
+.menu-actions ul li{display: inline-block;list-style-type: none;margin: 0 3px;float: left;}
+.menu-actions ul li a{color: #fff;display: inline-block;line-height: 1;font-size: 25px;padding: 10px;}
+.menu-actions ul li a i{position: relative}
+.menu-actions ul li a i span.count{position: absolute;width: 22px;height: 22px;background: #f00;text-align: center;border-radius: 50%;font-size: 13px;padding-top: 4px;top: -10px;right: -16px;border: 1px solid #f00;box-shadow: none;}
+
+
+
+.Exp-serach {position: relative;width: 0%;min-width: 50px;height: 50px;float: right;overflow: hidden;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+    -webkit-backface-visibility: hidden;
+}
+.ExpInput {background: #4269ea none repeat scroll 0 0;border: medium none;color: #fff;font-family: inherit;font-size:14px;height: 50px;margin: 0;outline: medium none;padding: 0 2%;position: absolute;right: 0;top: 0;width: 50%;z-index: 10;border-bottom: 1px solid #fff;}
+ 
+input[type="search"].ExpInput {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+.ExpInput::-webkit-input-placeholder {color: #fff;}
+.ExpInput:-moz-placeholder {color: #fff;}
+.ExpInput::-moz-placeholder {color: #fff;}
+.ExpInput:-ms-input-placeholder {color: #fff;}
+.ExpIcon,
+.Expbtn  {width: 50px;height: 50px;display: block;position: absolute;right: 0;top: 0;padding: 0;margin: 0;line-height: 50px;text-align: center;cursor: pointer;}
+
+.Expbtn {
+    background: #fff; /* IE needs this */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */opacity: 0;color: transparent;color:red;border: none;outline: none;z-index: -1;}
+
+.ExpIcon {color: #fff;background: #4269ea;z-index: 90;font-size: 22px;font-family: 'icomoon';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;-webkit-font-smoothing: antialiased;}
+.ExpIcon:before {content: "";}
+.Exp-serach.Exp-serach-open,
+.no-js .Exp-serach {width:500px;}
+.Exp-serach.Exp-serach-open .ExpIcon,
+.no-js .Exp-serach .ExpIcon {/* background: #f7cd22; */color: #fff;z-index: 11;}
+.Exp-serach.Exp-serach-open .Expbtn,
+.no-js .Exp-serach .Expbtn {
+/*    z-index: 90;*/
+}
